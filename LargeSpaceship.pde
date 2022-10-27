@@ -14,7 +14,7 @@ class LargeSpaceship {
     this.speed = speed;
     this.size = size;
     for (int i = 0; i < spaceship.length; i++) {
-      spaceship[i] = loadImage ("Spaceship"+i+".png");
+      spaceship[i] = loadImage ("images/Spaceship"+i+".png");
       spaceship[i].resize(size, size);
     }
   }

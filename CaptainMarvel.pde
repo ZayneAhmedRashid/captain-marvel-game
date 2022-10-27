@@ -10,7 +10,7 @@ class CaptainMarvel {
   int previousFrame = 0;
   final int timeFrame = 150;
   PImage[] standardImage = new PImage[2];
-  PImage empoweredImage = loadImage ("Captain_Marvel_Empowered.png");
+  PImage empoweredImage = loadImage ("images/Captain_Marvel_Empowered.png");
 
   CaptainMarvel (float x, float y, float speed, float speedEmpowered) {
     this.x = x;
@@ -18,7 +18,7 @@ class CaptainMarvel {
     this.speed = speed;
     this.speedEmpowered = speedEmpowered;
     for (int i = 0; i < standardImage.length; i++) {
-      standardImage[i] = loadImage ("Captain_Marvel"+i+".png");
+      standardImage[i] = loadImage ("images/Captain_Marvel"+i+".png");
       standardImage[i].resize(40, 150);
     }
   }

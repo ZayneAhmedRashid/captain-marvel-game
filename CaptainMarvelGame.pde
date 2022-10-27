@@ -26,9 +26,9 @@ ArrayList<Explosion> explosions = new ArrayList<Explosion>();
 //--------Setup & Level Control--------------------------------------------------------------------------------------------------------------//
 void setup() {
   size (800, 800);
-  level1Background = loadImage ("Level_1_Background.jpg");
-  level2Background = loadImage ("Level_2_Background.jpg");
-  mainScreen = loadImage ("Main_Screen.png");
+  level1Background = loadImage ("images/Level_1_Background.jpg");
+  level2Background = loadImage ("images/Level_2_Background.jpg");
+  mainScreen = loadImage ("images/Main_Screen.png");
   captainMarvel = new CaptainMarvel(width/2, height/2, 0.025, 10);
 }
 

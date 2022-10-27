@@ -4,7 +4,7 @@ class LargeEnergyBlast {
   float speed;
   int sizeWidth;
   int sizeHeight;
-  PImage largeEnergyBlastImage = loadImage ("Energy_Blast.png");
+  PImage largeEnergyBlastImage = loadImage ("images/Energy_Blast.png");
 
   LargeEnergyBlast (float x, float y, float speed, int sizeWidth, int sizeHeight) {
     this.x = x;

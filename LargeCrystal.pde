@@ -16,7 +16,7 @@ class LargeCrystal {
     this.sizeWidth = sizeWidth;
     this.sizeHeight = sizeHeight;
     for (int i = 0; i < crystal.length; i++) {
-      crystal[i] = loadImage ("Crystal"+i+".png");
+      crystal[i] = loadImage ("images/Crystal"+i+".png");
       crystal[i].resize(sizeWidth, sizeHeight);
     }
   }

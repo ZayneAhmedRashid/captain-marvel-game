@@ -17,7 +17,7 @@ class Explosion {
     this.sizeWidth = sizeWidth;
     this.sizeHeight = sizeHeight;
     for (int i = 0; i < explosion.length; i++) {
-      explosion[i] = loadImage ("Explosion"+i+".png");
+      explosion[i] = loadImage ("images/Explosion"+i+".png");
       explosion[i].resize(sizeWidth, sizeHeight);
     }
   }
